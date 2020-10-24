@@ -5,18 +5,18 @@ let timer = setInterval(onTick, 2500);
 
 function onTick() {
   if (n === 0) {
-    text.innerHTML = '<span class="jobs"> Me llamo Edinson Rosario</span>';
+    text.innerHTML = '<span class="jobs"> Soy Edinson Rosario</span>';
 
     n = 1;
     return;
   }
   if (n === 2) {
-    text.innerHTML = '<span class="jobs"> Me llamo Edinson Rosario</span>';
+    text.innerHTML = '<span class="jobs"> Soy Edinson Rosario</span>';
 
     n = 1;
     return;
   } else if (n == 1) {
-    text.innerHTML = '<span class="jobs">Soy Web Developer FullStack</span>';
+    text.innerHTML = '<span class="jobs">Web Developer FullStack</span>';
     n = 2;
     return;
   }
